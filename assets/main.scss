@@ -4,6 +4,6 @@
 
 @import "minima";
 
-@include font-face(baybayin_modern_scriptregular,baybayin_mod-webfont, normal, normal, woff2 woff);
-@include font-face(baybayin_modern_brush_1Rg, baybayin_br1-webfont, normal, normal, woff2 woff);
-@include font-face(baybayin_modern_roundregular,baybayin_modern_roundregular, normal, normal, woff2 woff);
+@include font-face(baybayin_modern_scriptregular, fonts/baybayin_mod-webfont, normal, normal, woff2 woff);
+@include font-face(baybayin_modern_brush_1Rg,  fonts/baybayin_br1-webfont, normal, normal, woff2 woff);
+@include font-face(baybayin_modern_roundregular,  fonts/baybayin_modern_roundregular, normal, normal, woff2 woff);
