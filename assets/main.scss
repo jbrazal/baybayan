@@ -1,9 +1,5 @@
 ---
-
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "minima";
-
-@include font-face(baybayin_modern_scriptregular, fonts/baybayin_mod-webfont, normal, normal, woff2 woff);
-@include font-face(baybayin_modern_brush_1Rg,  fonts/baybayin_br1-webfont, normal, normal, woff2 woff);
-@include font-face(baybayin_modern_roundregular,  fonts/baybayin_modern_roundregular, normal, normal, woff2 woff);
