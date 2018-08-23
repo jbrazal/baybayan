@@ -2,47 +2,6 @@
 @import "minima";
 ---
 
-@font-face {
-    font-family: 'baybayin_modern_scriptregular';
-    src: url('baybayin_mod-webfont.woff2') format('woff2'),
-         url('baybayin_mod-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'baybayin_modern_brush_1Rg';
-    src: url('baybayin_br1-webfont.woff2') format('woff2'),
-         url('baybayin_br1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'baybayin_modern_roundregular';
-    src: url('baybayin_rnd-webfont.woff2') format('woff2'),
-         url('baybayin_rnd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'baybayin_modern_scriptregular';
-    src: url('baybayin_mod-webfont.woff2') format('woff2'),
-         url('baybayin_mod-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@include font-face(baybayin_modern_scriptregular,baybayin_mod-webfont, normal, normal, woff2 woff);
+@include font-face(baybayin_modern_brush_1Rg, baybayin_br1-webfont, normal, normal, woff2 woff);
+@include font-face(baybayin_modern_roundregular,baybayin_modern_roundregular, normal, normal, woff2 woff);
